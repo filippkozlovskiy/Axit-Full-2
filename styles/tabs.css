@@ -1,0 +1,93 @@
+.tabs {
+        padding-top: 99px;
+    }
+    
+    .tabs--header {
+        list-style: none;
+        font-size: 0px;
+        padding: 0;
+    }
+    
+    li {
+        display: inline-block;
+    }
+    
+    .tabs--header-button {
+        width: 184px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #C6CBCD;
+        text-transform: uppercase;
+    }
+    
+    .active {
+        border: 1px solid #C6CBCD;
+        border-radius: 5px 5px 0px 0px;
+        border-bottom: none;
+        width: 203px;
+    }
+    
+    .tabs--header-line {
+        border-bottom: 1px solid #C6CBCD;
+        width: calc(100% - (184px * 2) - 203px);
+        vertical-align: bottom;
+    }
+    
+    .tabs--content {
+        border: 1px solid #C6CBCD;
+        border-top: none;
+        display: flex;
+    }
+    
+    .tabs--content-about {
+        padding-left: 100px;
+    }
+    
+    .tabs--about-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        padding: 41.5px 0 41.5px;
+    }
+    
+    .tabs--about-description {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .tabs--about-description {
+        margin-top: 27px;
+    }
+
+    .paragraph {
+        margin-top: 21px;
+    }
+    
+    .tabs--about-button {
+        width: 270px;
+        height: 58px;
+        background-color: #EC7979;
+        border: none;
+        outline: none;
+        margin-top: 27px;
+    }
+
+    .tabs--about-button > a {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+    }
+    
+    .tabs--content > img {
+        margin-left: 30px;
+    }

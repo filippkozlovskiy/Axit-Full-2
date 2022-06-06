@@ -1,0 +1,110 @@
+.contact {
+    padding-top: 50px;
+}
+
+.contact--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 54px 0;
+}
+
+.contact--line {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    border: none;
+    margin: 0 auto;
+}
+
+.customers--subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact--form {
+    margin-top: 89px;
+    padding-bottom: 50px;
+}
+
+.contact--form-inner {
+    display: flex;
+    align-items: stretch;
+}
+
+.contact--form--input {
+    max-width: 571px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--form--input > input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 38px;
+    padding-bottom: 16px;
+}
+
+.contact--form--input :not(:first-child) {
+    padding-top: 50px;
+}
+
+input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.contact--form-inner > textarea {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    max-width: 569px;
+    width: 100%;
+    margin-left: 30px;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.contact--form-button {
+    width: 370px;
+    height: 58px;
+    background-color: #EC7979;
+    border: none;
+    position: absolute;
+    left: calc(50% - 185px);
+    margin-top: 50px;
+}
+
+.contact--form-button > a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    
+}

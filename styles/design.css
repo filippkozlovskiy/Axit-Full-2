@@ -1,0 +1,60 @@
+.design {
+    background: linear-gradient(rgba(37, 37, 37, 0.7), rgba(0, 0, 0, 0.6)), url(/images/design/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    min-height: 442px;
+    padding-top: 50px;
+}
+
+.design--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 54px 0;
+}
+
+.design--line {
+    width: 170px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.design--description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.design--button {
+    width: 370px;
+    height: 58px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: 73px;
+    position: absolute;
+    left: calc(50% - 185px);
+    margin-bottom: 50px;
+}
+
+.design--button > a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
