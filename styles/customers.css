@@ -1,0 +1,95 @@
+.customers {
+    padding: 50px 0 64px;
+}
+
+.customers--title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 54px 0;
+}
+
+.customers--line {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    border: none;
+    margin: 0 auto;
+}
+
+.customers--subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+.customers--cards {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 83px;
+    justify-content: space-between;
+}
+
+.customers--card {
+    max-width: 370px;
+    width: 100%;
+    position: relative;
+}
+
+.customers--card-comment {
+    background-color:#E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    padding: 38px 20px 37px;
+}
+
+.customers--card-triangle {
+    position: absolute;
+    left: 70px;
+}
+
+.customer--card-profile {
+    margin-top: 46px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile--name {
+    margin: 0 0 0 30px;
+    max-width: 269px;
+}
+
+.profile--name-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.profile--name-subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 25px 0 0;
+}
